@@ -11,3 +11,6 @@ php artisan make:model Support -m
 php artisan migrate
 exit
 exit
+exit
+php artisan make:request StoreUpdateSupport
+exit
