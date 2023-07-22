@@ -13,4 +13,5 @@ Route::prefix('/supports')->group(function(){
     Route::post('/post', [SupportController::class, 'store'])->name('support.store');
     Route::get('/create', [SupportController::class, 'create'])->name('support.create');
     Route::get('/index', [SupportController::class, 'index'])->name('support.index');
+    Route::get('/show/{id}', [SupportController::class, 'show'])->name('support.show');
 });

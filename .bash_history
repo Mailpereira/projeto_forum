@@ -10,3 +10,4 @@ php artisan
 php artisan make:model Support -m
 php artisan migrate
 exit
+exit
